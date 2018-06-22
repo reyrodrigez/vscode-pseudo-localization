@@ -18,9 +18,20 @@
         "commands": [
             {
                 "command": "extension.pseudoLocalize",
-                "title": "Pseudolocalize selected string"
+                "title": "Pseudolocalize selected text"
             }
-        ]
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Pseudolocalization configuration",
+            "properties": {
+                "pseudolocalization.wrapper": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "[!!! Enclose in brackets and exclamations !!!]"
+                }
+            }
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
