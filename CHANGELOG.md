@@ -1,9 +1,10 @@
 # Change Log
 All notable changes to the "pseudo-localizer" extension will be documented in this file.
 
-## 0.0.4 (2018-06-22)
+## 1.0.0 (2018-06-22)
 
-- fixing wrapper setting bug
+- add extend text as option (default on)
+- typo fixes
 
 ## 0.0.3 (2018-06-22)
 
