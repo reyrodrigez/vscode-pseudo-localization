@@ -1,4 +1,4 @@
-# pseudo-localizer README
+# pseudo-localizer VSCode extension
 
 Pseudolocalization is a software testing method used for testing internationalization aspects of software. Instead of translating the text of the software into a foreign language, as in the process of localization, the textual elements of an application are replaced with an altered version of the original language.
 
@@ -19,5 +19,4 @@ Read more about Pseudolocalization on [wikipedia](https://en.wikipedia.org/wiki/
 
 ## Configuration options
 
-pseudolocalization.wrapper - `{boolean:true}` [!!! enclose in brackets and exclamations !!!]: `[!!! text !!!]`
-
+pseudolocalizer.wrapper - `{boolean:true}` [!!! enclose in brackets and exclamations !!!]: `[!!! text !!!]`

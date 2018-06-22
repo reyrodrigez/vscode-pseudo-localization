@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     const disposable = vscode.commands.registerCommand('extension.pseudoLocalize', () => {
         const editor = vscode.window.activeTextEditor;
-        const settings = vscode.workspace.getConfiguration('pseudo-localizer');
+        const settings = vscode.workspace.getConfiguration('pseudolocalizer');
 
         if (!editor) {
             return;
@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
             return;
         }
         
-        const pseudoText = settings.wrapper ? `[!!! ${tranformStringToPseudo(text)} !!!]` : tranformStringToPseudo(text) ;
+        const pseudoText = settings.wrapper ? `[!!! ${tranformStringToPseudo(text)} !!!]` : tranformStringToPseudo(text);
 
         editor.edit(editBuilder => {
             editBuilder.delete(new vscode.Range(selection.start.line,selection.start.character,selection.end.line,selection.end.character));
