@@ -11,4 +11,9 @@ suite("Pseudizer Tests", function () {
     test("should work with empty text", function() {
         expect(tranformStringToPseudo('')).to.equal('');
     });
+
+    test("should extended text", function() {
+        const localizedText = tranformStringToPseudo('abcdeabcde', true);
+        expect(localizedText.length).to.equal(13);
+    });
 });
