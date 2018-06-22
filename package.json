@@ -30,6 +30,11 @@
                     "type": "boolean",
                     "default": true,
                     "description": "[!!! Enclose in brackets and exclamations !!!]"
+                },
+                "pseudolocalizer.extend": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Extend the length by 30%"
                 }
             }
         }

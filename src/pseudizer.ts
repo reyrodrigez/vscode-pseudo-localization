@@ -62,8 +62,7 @@ export default function tranformStringToPseudo(
     .map(char => transformCharToPseudo(char))
     .join("");
 
-  //   return extended ? extend(transformedText, 30) : transformedText;
-  return extend(transformedText, 30);
+  return extended ? extend(transformedText, 30) : transformedText;
 }
 
 function transformCharToPseudo(char: string): string {
@@ -75,7 +74,7 @@ function extend(text: string, length: number): string {
   let extendedText = text;
 
   let i = 0;
-  while (i < Math.ceil(text.length*(length/100))) {
+  while (i < Math.ceil(text.length * (length / 100))) {
     const randomPseudoChar =
       alphabetValues[Math.round(Math.random() * alphabetValues.length)];
 

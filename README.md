@@ -11,7 +11,7 @@ These specific alterations make the original words appear readable, but include 
 
 ### How to use
 
-1. select 
+1. select text in editor
 2. press `⇧⌘P` / `Ctrl+Shift+P`
 3. search for `Pseudolocalize selected text`
 
@@ -20,3 +20,4 @@ Read more about Pseudolocalization on [wikipedia](https://en.wikipedia.org/wiki/
 ## Configuration options
 
 pseudolocalizer.wrapper - `{boolean:true}` [!!! enclose in brackets and exclamations !!!]: `[!!! text !!!]`
+pseudolocalizer.extend - `{boolean:true}` Extend the length of the text by 30%.
