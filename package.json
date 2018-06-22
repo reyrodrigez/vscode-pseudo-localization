@@ -2,7 +2,7 @@
     "name": "pseudo-localizer",
     "displayName": "Pseudo Localizer",
     "description": "Update selected text with alter version of the original language including problematic characters.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "reyrodrigez",
     "engines": {
         "vscode": "^1.24.0"
