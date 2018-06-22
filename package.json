@@ -1,7 +1,7 @@
 {
     "name": "pseudo-localizer",
     "displayName": "Pseudo Localizer",
-    "description": "Upate selected text with alter version of the original language including problematic characters.",
+    "description": "Update selected text with alter version of the original language including problematic characters.",
     "version": "0.0.2",
     "publisher": "reyrodrigez",
     "engines": {
