@@ -1,7 +1,12 @@
 # Change Log
 All notable changes to the "pseudo-localizer" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.2] (2018-06-22)
 
-## [Unreleased]
-- Initial release
+- readme updates
+- add wrapper option
+
+## [0.0.1] (2018-06-21)
+
+- initial setup
+- basic command contribution
